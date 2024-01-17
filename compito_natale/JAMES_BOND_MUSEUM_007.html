@@ -1,0 +1,212 @@
+ <!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>James Bond 007 Museum</title>
+        <link rel="shortcut icon" href="immagini_jbm/james_bond_logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="coreui-icons-master/css/all.min.css">
+        <link rel="stylesheet" href="style_jamesbond007.css">
+    </head>
+    <body>
+        <!-- INIZIO HEADER -->
+        <header>
+            <!-- BARRA DI NAVIGAZIONE PRINCIPALE -->
+            <div class="bar">
+                <!-- LOGO -->
+                <h1>
+                    <a href="JAMES_BOND_MUSEUM_007.html">
+                    <img class="fix_logo" src="immagini_jbm/james_bond_logo.png" alt="007 logo">
+                    007 Museum</a>
+                </h1>
+                <!-- NAV -->
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="about-007.html">About</a>
+                        </li>
+                        <li>
+                            <a href="blog-007.html">Blog</a>
+                        </li>
+                    </ul>
+                </nav> 
+            </div>
+            <!-- FINE BARRA DI NAVIGAZIONE -->
+            <!-- INIZIO BANNER -->
+            <div class="banner">
+                <h2>JAMES BOND<br><img class="fix_logo_home" src="immagini_jbm/logo.png" alt="007 logo"><br>MUSEUM</h2>
+                <p>"C'è un solo Bond... James Bond"<br>Vieni con noi a scoprire di più sull'agente segreto più famoso del mondo<br>Ti aspettiamo!</p>
+                <button>
+                    <a href="book-007.html">PRENOTA QUI</a>
+                </button>
+            </div>
+            <!-- FINE BANNER -->
+        </header>
+        <!-- FINE HEADER -->
+        <!-- INIZIO MAIN -->
+        <main>
+            <!-- INIZIO PRIMA PARTE HOME: ABOUT -->
+            <div class="about">
+                <h3>CHI È JAMES BOND?</h3>
+                <div class="intro">
+                    <img style="height: 100%;" src="immagini_jbm/James_Bond.jpeg" alt="foto immagine di James Bond">
+                    <p>James Bond è un personaggio immaginario creato nel 1953 dallo scrittore britannico Ian Fleming, poi reso universalmente famoso dai film ispirati ai libri dei quali è protagonista (dodici romanzi e due raccolte di storie): colto e raffinato agente segreto del controspionaggio inglese, già comandante della Marina Militare, Bond ha come numero identificativo 007, dove il doppio zero indica che ha "licenza di uccidere"</p>
+                </div>
+            </div>
+            <!-- FINE PRIMA PARTE HOME -->
+            <!-- INIZIO GALLERIA IMMAGINI -->
+            <div class="collection">
+                <h3>COLLEZIONE</h3>
+                <!-- INIZIO GALLERIA DI IMMAGINI DELLA COLLEZIONE DI JAMES BOND -->
+                <!-- MENU CATEGORIE -->
+                <div  class="select_gallery">
+                    <ul>
+                        <li>
+                            <a href="#" onclick="showCategory(event, 'auto')">auto</a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="showCategory(event, 'moto')">moto</a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="showCategory(event, 'altro')">altri veicoli</a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="showCategory(event, 'accessori')">accessori</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <!-- CATEGORIA: AUTO -->
+                    <div id="auto" class="gallery">
+                        <div class="box1">
+                            <img src="immagini_jbm/auto/Aston_Martin_DBS.jpg" alt="moto">
+                            <div class="box2"><p>Aston Martin DBS</p></div>
+                        </div>
+                        <div class="box1">
+                            <img src="immagini_jbm/auto/BMW_Z3.jpg" alt="moto">
+                            <div class="box2"><p>BMW Z3</p></div>
+                        </div>
+                        <div class="box1">
+                            <img src="immagini_jbm/auto/lotus_esprit_turbo.jpg" alt="moto">
+                            <div class="box2"><p>Lotus Esprit Turbo</p></div>
+                        </div>
+                        <div class="box1">
+                            <img src="immagini_jbm/auto/saab-900.jpg" alt="moto">
+                            <div class="box2"><p>Saab 900</p></div>       
+                        </div>    
+                    </div>
+                    <!-- CATEGORIA: MOTO -->
+                    <div id="moto" class="gallery" style="display: none;">
+                        <div class="box1">
+                            <img src="immagini_jbm/moto/tiger-900.jpeg" alt="Tiger 900">
+                            <div class="box2"><p>Tiger 900</p></div>
+                        </div>
+                        <div class="box1">
+                            <img src="immagini_jbm/moto/triumph_scrambler.jpg" alt="Triumph Scrambler">
+                            <div class="box2"><p>Triumph Scrambler</p></div>
+                        </div>
+                        <div class="box1">
+                            <img src="immagini_jbm/moto/triumph_speed-triple_1200.jpeg" alt="Triumph Speed triple 1200">
+                            <div class="box2"><p>Triumph Speed triple 1200</p></div>
+                        </div>    
+                    </div>
+                    <!-- CATEGORIA: ALTRI VEICOLI -->
+                    <div id="altro" class="gallery" style="display: none;">
+                        <div class="box1">
+                            <img src="immagini_jbm/altri veicoli/autogiro-jt3.jpg" alt="Autogiro JT3">
+                            <div class="box2"><p>Autogiro JT3</p></div>
+                        </div>
+                        <div class="box1">
+                            <img src="immagini_jbm/altri veicoli/cessna172.jpg" alt="Cessna 172">
+                            <div class="box2"><p>Cessna 172</p></div>
+                        </div>
+                        <div class="box1">
+                            <img src="immagini_jbm/altri veicoli/glastron-GT-150.jpg" alt="Glastron GT 150">
+                            <div class="box2"><p>Glastron GT 150</p></div>
+                        </div>
+                        <div class="box1">
+                            <img src="immagini_jbm/altri veicoli/hovercraft_osprey_5.jpg" alt="Hovercraft Osprey 5">
+                            <div class="box2"><p>Hovercraft Osprey 5</p></div>       
+                        </div>
+                        <div class="box1">
+                            <img src="immagini_jbm/altri veicoli/ski-doo-MXZ_600_HO.jpg" alt="Ski Doo MXZ 600 HO">
+                            <div class="box2"><p>Ski Doo MXZ 600 HO</p></div>       
+                        </div>     
+                    </div>
+                    <!-- CATEGORIA: ACCESSORI -->
+                    <div id="accessori" class="gallery" style="display: none;">
+                        <div class="box1">
+                            <img src="immagini_jbm/accessori/omega_spectre.jpg" alt="Omega Spectre">
+                            <div class="box2"><p>Omega Spectre Limited Edition</p></div>
+                        </div>
+                        <div class="box1">
+                            <img src="immagini_jbm/accessori/pistol_3_M.jpg" alt="Pistola 3M">
+                            <div class="box2"><p>Pistola 3M</p></div>
+                        </div>
+                        <div class="box1">
+                            <img src="immagini_jbm/accessori/spectre_pen.jpg" alt="Penna Spectre">
+                            <div class="box2"><p>Penna Spectre 007</p></div>
+                        </div>
+                        <div class="box1">
+                            <img src="immagini_jbm/accessori/targhe_auto.jpg" alt="Targhe Auto Agente 007">
+                            <div class="box2"><p>Targhe Auto Agente 007</p></div>       
+                        </div>    
+                    </div>
+                </div>
+            </div>
+            <!--I FILM PIU' FAMOSI DI JAMES BOND-->
+            <div class="film">
+                <h3>UNO SGUARDO<br>AD ALCUNI DEI FILM DELL'AGENTE 007</h3>
+                <div class="film_grid">
+                    <div class="film_1">
+                        <img src="immagini_jbm/licenza_di_uccidere.jpg" alt="film - 007 license to kill">
+                    </div>
+                    <div class="text_1">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro incidunt illum, laboriosam esse sunt et ipsam. Error provident reiciendis eos illum, officia, repellendus laboriosam nobis ipsam quam praesentium veniam perspiciatis unde doloribus odio. Voluptatibus dignissimos expedita ipsum obcaecati suscipit corporis qui, rerum harum dolorem. Totam id facere aliquid fugiat voluptatum?</p>
+                    </div>
+                    <div class="film_2">
+                        <img src="immagini_jbm/vivi_e_lascia_morire.jpg" alt="film - 007 live and let die">
+                    </div>
+                    <div class="text_2">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi tenetur repudiandae reiciendis ab quaerat quos fugiat mollitia? Repellendus ullam expedita fugit aliquid ut? Ab, eaque impedit placeat id ipsa odit eos iste laboriosam consectetur voluptatibus illum tempora unde veritatis corporis. Quia dolores perspiciatis perferendis eveniet minima facere odit optio, laborum magnam at nihil vero iusto sapiente inventore blanditiis. Debitis, repellendus unde et officia iusto sapiente!</p>
+                    </div>
+                    <div class="film_3">
+                        <img src="immagini_jbm/vendetta_privata.jpg" alt="film - 007 private revenge">
+                    </div>
+                    <div class="text_3">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione illum odio quae reprehenderit, ducimus veniam cumque iste dolorem, voluptatum eveniet beatae labore, officiis sit adipisci debitis atque at unde fugiat quis. Maxime nam sapiente consectetur incidunt tempore repellendus nemo, atque maiores recusandae voluptatum aspernatur ab accusamus delectus debitis optio fugiat?</p>
+                    </div>
+                </div>   
+            </div>
+        </main>
+        <footer class="footer">
+            <div>
+                <a href="JAMES_BOND_MUSEUM_007.html">
+                    <img class="fix_logo" src="immagini_jbm/james_bond_logo.png" alt="James Bond 007 Museum logo">
+                    007 Museum</a>
+            </div>
+            <div class="copyrigth">
+                <p>All rigths reserved © 2024 <a href="www.007Museum.com">www.007Museum.com</a></p>
+            </div>
+            <div class="info">
+                <p>Emmabodav 20 - Nybro, Sweden<br>Tel: +46-481-12960<br>Email:<a href="mailto:007museum@telia.com">007museum@telia.com</a>
+                </p>
+                <div class="menu_social">
+                    <a href="#" title="facebook" target="_blank">
+                        <i class="cib-facebook"></i>
+                    </a>
+                    <a href="#" title="twitter" target="_blank">
+                        <i class="cib-twitter"></i>
+                    </a>
+                    <a href="#" title="youtube" target="_blank">
+                        <i class="cib-youtube"></i>
+                    </a>
+                    <a href="#" title="instagram" target="_blank">
+                        <i class="cib-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+       <script src="script007.js"></script> 
+    </body>
+</html>
